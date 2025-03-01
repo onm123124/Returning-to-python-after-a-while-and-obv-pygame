@@ -7,7 +7,7 @@ pygame.init()
 # vars
 screen = pygame.display.set_mode((0, 0))  # fullscreen
 clock = pygame.time.Clock()
-square_pos = pygame.Rect(600, 800, 50, 50)  # Use pygame.Rect() instead of pygame.rect()
+square_pos = pygame.Rect(600, 800, 50, 50)  # Use pygame.Rect() instead of pygame.rect() because its sensitive... idk
 
 
 while True:
